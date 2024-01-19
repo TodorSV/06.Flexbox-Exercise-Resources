@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+blockquote,
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+
+body {
+    background-color: rgb(238, 238, 238);
+}
+
+a {
+    color: rgb(0, 153, 0);
+    text-decoration: none;
+    font-size: 0.8em;;
+}
+
+
+
+p {
+    padding-bottom: 1.5em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+img {
+    background-color: rgb(255, 255, 255);
+}
+
+.page {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 45em;
+    margin: 4em auto;
+    gap: 2em;
+}
+
+.page header {
+    border-bottom: 2px solid #000;
+    flex: 1 1 100%;
+    padding-bottom: 1.5em;
+}
+
+.page > main {
+    flex: 1 1 70%;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 70%; */
+}
+
+.page > aside {
+    flex: 1 1 25%;
+    /* flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 25%; */
+}
+
+ /* Styles for  Images and positioning */
+
+img[class*="align"] {
+    display: block;
+    padding: 0.5em;
+    background-color: #fff;
+    border: 5px solid black;
+    box-shadow: 0 0 1em 0.2em rgb(0, 0, 0, 0.2);
+}
+
+
+.align-right {
+    float: right;
+    margin: 0 0 1em 1em;
+}
+
+.align-left {
+    float: left;
+    margin: 0 1em 1em 0;
+}

@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh; /* 100% of the viewport height ДА може да се разпъва бодито ако няма контент */
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #DDD;
+}
+
+
+main {
+    flex: 1 1 auto;
+}
+
+header, main, footer {
+    padding: 1.5em 2em;
+    border: 1px solid black;
+}
+
+h2{
+    padding-top: 1em;
+}
+
+p {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+}
+
+footer {
+    flex-basis: 100%;
+    background-color: rgb(102, 102, 102);
+    color: rgb(255, 255, 255);
+    margin-top: auto;
+
+}
+
+
+
